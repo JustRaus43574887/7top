@@ -1,0 +1,9 @@
+.prev-logo {
+  width: 150px;
+}
+
+@media screen and (max-width: 425px) {
+  .prev-logo {
+    width: 50px;
+  }
+}

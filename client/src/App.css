@@ -1,0 +1,20 @@
+.sem-drop {
+  position: absolute !important;
+  width: 40px;
+  height: 40px;
+  left: 0;
+}
+
+.sem-drop .menu {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.sem-drop .menu .item {
+  padding-left: 10 !important;
+  padding-right: 10 !important;
+}
+
+.sem-drop .menu .item img {
+  margin: 0 !important;
+}

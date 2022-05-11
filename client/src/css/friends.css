@@ -1,0 +1,412 @@
+body {
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+	/*    padding: 45px 0 60px;*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+.friends {
+	padding: 45px 0 60px;
+}
+
+.friends #videoBG {
+	position: fixed;
+	z-index: -1;
+	margin-top: -83px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.friends #videoBG {
+		height: auto;
+		width: 100%;
+	}
+}
+
+.friends .container {
+	width: 860px;
+	margin: 0 auto;
+}
+
+.friends .account {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.friends .elipse {
+	width: 151px;
+	height: 151px;
+	border-radius: 50%;
+	background: #c4c4c4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.friends .elipse3 {
+	height: 138px;
+	width: 138px;
+	border-radius: 50%;
+	border: 1px solid #3f3f3f;
+	background: #c4c4c4;
+	position: relative;
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+}
+
+.friends .links {
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+}
+
+.friends .info a {
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.friends .info .chat {
+	background: transparent;
+	padding: 10px;
+	border-radius: 10px;
+	width: 240px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.friends .info .chat i {
+	float: none;
+	color: #fff;
+}
+
+.friends .elipse3 img {
+	width: 100%;
+	object-fit: fill;
+	object-position: center;
+	pointer-events: none;
+	user-select: none;
+}
+
+.friends .elipse_ {
+	width: 151px;
+	height: 151px;
+	border-radius: 50%;
+	background: #c4c4c4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.friends .elipse3_ {
+	height: 138px;
+	width: 138px;
+	border-radius: 50%;
+	border: 1px solid #3f3f3f;
+	background: #c4c4c4;
+	overflow: hidden;
+	display: flex;
+	align-content: stretch;
+	align-items: stretch;
+}
+
+.friends .elipse3_ img {
+	width: 100%;
+	object-fit: fill;
+	object-position: center;
+	pointer-events: none;
+	user-select: none;
+}
+
+.friends i {
+	color: #c4c4c4;
+	float: right;
+}
+
+.friends .p1 {
+	font-weight: 500;
+	font-size: 35px;
+	text-align: center;
+	color: #ffffff;
+	margin-right: 380px;
+	margin-top: 52px;
+}
+
+.friends .info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	align-items: center;
+}
+
+.friends .info > a {
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.friends .selected {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+}
+
+.friends #myInput {
+	background-image: url('../img/search.png');
+	background-position: 8px 7px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	margin-bottom: 12px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #555555;
+	width: 287px;
+	height: 46px;
+	border: none;
+	background-color: #262626;
+	border-radius: 9px;
+	box-shadow: inherit;
+	box-sizing: inherit;
+	transition: inherit;
+	font-family: inherit;
+}
+
+.friends .comp {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 22px;
+}
+
+.friends .comp .text {
+	margin-left: 40px;
+	max-width: 200px;
+}
+
+.friends .p3 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 36px;
+	color: #ffffff;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.friends .p4 {
+	font-size: 25px;
+	line-height: 30px;
+	color: #555555;
+	margin: 0;
+}
+
+.friends .btn {
+	background: #000000;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+	width: 321px;
+	height: 60px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 25px;
+	color: #ffffff;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	line-height: inherit;
+	padding: inherit;
+	text-transform: inherit;
+}
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.friends .container {
+		width: 860px;
+	}
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.friends .container {
+		width: 720px;
+	}
+
+	.friends .text {
+		margin-right: 0;
+	}
+
+	.friends .btn {
+		width: 300px;
+	}
+
+	.friends .p1 {
+		margin-right: 265px;
+	}
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.friends .container {
+		width: 540px;
+	}
+
+	.friends .info a {
+		font-size: 23px;
+	}
+
+	.friends .comp1 {
+		padding: 30px 15px;
+	}
+
+	.friends .elipse {
+		width: 133px;
+		height: 133px;
+	}
+
+	.friends .elipse3 {
+		height: 125px;
+		width: 125px;
+		position: relative;
+	}
+
+	.friends .elipse_ {
+		width: 100px;
+		height: 100px;
+	}
+
+	.friends .elipse3_ {
+		width: 93px;
+		height: 93px;
+	}
+
+	.friends .p1 {
+		margin-right: 130px;
+		font-size: 32px;
+	}
+
+	.friends .info > a {
+		font-size: 23px;
+	}
+
+	.friends #myInput {
+		width: 235px;
+		margin-bottom: 0;
+	}
+
+	.friends .p3 {
+		font-size: 25px;
+	}
+
+	.friends .p4 {
+		font-size: 20px;
+	}
+
+	.friends .btn {
+		width: 235px;
+		font-size: 23px;
+	}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.friends .container {
+		width: 310px;
+	}
+
+	.friends .info .chat {
+		width: 100%;
+		padding: 0 20px;
+		justify-content: space-around;
+	}
+
+	.friends .elipse {
+		width: 90px;
+		height: 90px;
+	}
+
+	.friends .elipse3 {
+		height: 82px;
+		width: 82px;
+	}
+
+	.friends .elipse_ {
+		width: 75px;
+		height: 75px;
+	}
+
+	.friends .elipse3_ {
+		width: 70px;
+		height: 70px;
+	}
+
+	.friends .account {
+		margin-bottom: 15px;
+	}
+
+	.friends .p1 {
+		margin-right: 21px;
+		font-size: 21px;
+		margin-top: 40px;
+	}
+
+	.friends .left {
+		width: 40px;
+		height: 40px;
+	}
+
+	.friends .p3 {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.friends .p4 {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.friends .btn {
+		width: 123px;
+		font-size: 20px;
+	}
+
+	.friends .info {
+		flex-direction: column;
+		padding: 0 37px;
+		margin-bottom: 25px;
+	}
+
+	.friends .info > a {
+		font-size: 20px;
+		margin: 0 5px;
+		line-height: 45px;
+	}
+
+	.friends .p5 {
+		text-align: center;
+	}
+
+	.friends .info .links {
+		width: 100%;
+	}
+
+	.friends .info a {
+		font-size: 20px;
+		margin: 0 5px;
+		line-height: 45px;
+	}
+}

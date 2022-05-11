@@ -1,0 +1,41 @@
+{
+  "name": "7top",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Alex-La/7top.git",
+  "author": "Alex-La <lars6162@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "server": "nodemon index.js",
+    "client": "yarn --cwd client start",
+    "client:install": "yarn --cwd client install",
+    "client:build": "yarn --cwd client build",
+    "dev": "cross-env NODE_ENV=development concurrently \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-static-gzip": "^2.1.1",
+    "express-validator": "^6.10.0",
+    "glob": "^7.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.19",
+    "nodemailer": "^6.5.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "socket.io": "^4.0.0",
+    "trongrid": "^1.2.6",
+    "tronweb": "^3.2.6"
+  }
+}

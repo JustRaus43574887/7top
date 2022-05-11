@@ -1,0 +1,62 @@
+.all-winners .place {
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+	margin-left: -0.75em;
+}
+
+.all-winners .place > span {
+	color: #555555;
+	font-size: 2em;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	margin-left: 0.25em;
+}
+
+.all-winners .place .sum {
+	color: #18a0fb;
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-left: 0.25em;
+}
+
+.all-winners .comp .text {
+	max-width: 280px;
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.all-winners .text .p3 {
+		font-size: 22px;
+	}
+
+	.all-winners .place {
+		font-size: 9px;
+	}
+
+	.all-winners .place img {
+		width: 40px;
+	}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.all-winners .text .p3 {
+		font-size: 17px;
+	}
+
+	.all-winners .place {
+		font-size: 8px;
+	}
+
+	.all-winners .place img {
+		width: 33px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.all-winners .comp .text {
+		margin-left: 20px;
+	}
+}

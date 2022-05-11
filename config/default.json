@@ -1,0 +1,9 @@
+{
+  "PORT": 4040,
+  "mongoUrl": "mongodb+srv://7top:TFR-U9D-Pzx-sL6@7top.kdbnh.mongodb.net/app",
+  "jwtSecret": "code is law",
+  "slicePath": 31,
+  "ManagerOne": "TCniKYPWixGqdUTicxSmszF8Bzc1wwvEq8",
+  "ManagerTwo": "TCniKYPWixGqdUTicxSmszF8Bzc1wwvEq8",
+  "Owner": "TUE2usBdVA9zmSWjueheJBBmfadZ9CAexS"
+}

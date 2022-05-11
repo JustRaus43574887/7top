@@ -1,0 +1,417 @@
+.allgames {
+  padding: 4.5em 0 6em;
+  font-size: 10px;
+}
+
+.allgames #videoBG {
+  position: fixed;
+  z-index: -1;
+  margin-top: -8.3em;
+}
+
+.allgames .container .banner-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.allgames .container .banner {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  width: 400px;
+}
+
+.allgames .container .banner img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .allgames #videoBG {
+    height: auto;
+    width: 100%;
+  }
+}
+#fileInput {
+  width: 100%;
+  height: 100%;
+  opacity: 0.01;
+  position: absolute;
+}
+#fileInput:hover {
+  cursor: pointer;
+}
+.imgPreview {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imgPreview img {
+  height: 100%;
+}
+
+.allgames .container {
+  width: 86em;
+  margin: 0 auto;
+}
+
+.allgames .account {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.allgames .elipse {
+  width: 15.1em;
+  height: 15.1em;
+  border-radius: 50%;
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allgames .elipse3 {
+  height: 13.8em;
+  width: 13.8em;
+  border-radius: 50%;
+  border: 1px solid #3f3f3f;
+  background: #c4c4c4;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.allgames .elipse3 img {
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
+.allgames .avatar-exist {
+  background-image: url("../img/user.jpg");
+}
+
+.allgames i {
+  color: #c4c4c4;
+  float: right;
+}
+
+.allgames .p1 {
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 1.5em;
+}
+
+.allgames .account > a {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+}
+
+.allgames .info {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5em 0;
+  font-size: 1em;
+}
+
+.allgames .info > a {
+  text-decoration: none;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.allgames .comp1 {
+  display: flex;
+  justify-content: space-between;
+  background: #262626;
+  border-radius: 2em;
+  width: 86.3em;
+  height: 18.4em;
+  border-radius: 2em;
+  padding: 3em 6em 3em 6em;
+  align-items: center;
+  margin-bottom: 2.3em;
+}
+
+.allgames .p2 {
+  font-weight: 600;
+  font-size: 3.5em;
+  color: #3897f1;
+  text-align: center;
+  margin: 0 0 0.29em;
+}
+
+.allgames .p2 > span {
+  font-size: 0.71em;
+  color: #ffffff;
+}
+
+.allgames a {
+  text-decoration: none;
+}
+
+.allgames .btn {
+  width: 6.42em;
+  height: 2.26em;
+  background: linear-gradient(90deg, #00d8fd 0%, #a25aff 100%);
+  box-shadow: 0px 0px 0.2em rgba(0, 0, 0, 0.25);
+  border-radius: 0.4em;
+  font-weight: 600;
+  font-size: 5em;
+  line-height: 1.22em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.allgames .p4 {
+  font-weight: 600;
+  font-size: 3.5em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.allgames .title2 > .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allgames .title2 > .top > img {
+  width: 2.4em;
+  height: 3.2em;
+  margin-right: 0.9em;
+}
+
+.allgames .p5 {
+  font-size: 2.5em;
+  color: #555555;
+  margin: 0.4em 0 0;
+}
+
+.allgames .comp2 {
+  display: flex;
+  justify-content: space-between;
+  background: #262626;
+  border-radius: 2em;
+  width: 86.3em;
+  height: 21.5em;
+  border-radius: 2em;
+  padding: 3em 6em 3em 3em;
+  align-items: center;
+  margin-bottom: 2.3em;
+}
+
+.allgames .comp3 {
+  padding: 3em 5em;
+}
+
+.allgames .timer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  box-sizing: border-box;
+  width: 20em;
+  height: 13.3em;
+}
+
+.allgames ul {
+  padding: 0px;
+  height: 12em;
+  /*width: 43%;*/
+  margin: 0;
+}
+
+.allgames hr {
+  width: 100%;
+}
+
+.allgames li {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+}
+
+.allgames .blok2 {
+  margin-right: 3.7em;
+}
+
+.allgames .title3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.allgames .title3 > img {
+  margin-right: 0.6em;
+}
+
+.allgames .blok3 {
+  width: 52em;
+}
+
+.allgames .title_ {
+  margin-left: 1em;
+}
+
+.allgames .men_ {
+  width: 2.4em;
+  height: 3.2em;
+  margin-right: 0.9em;
+}
+
+.allgames .btn-2 {
+  width: 100%;
+}
+
+.allgames .p5_ {
+  margin: 0;
+  margin-right: 1.5em;
+}
+
+.allgames .p6 {
+  font-size: 2.1em;
+  color: #ffffff;
+  margin: 0;
+  margin-right: 1.33em;
+}
+
+.allgames .top {
+  display: flex;
+  align-items: center;
+}
+
+.allgames iframe {
+  width: 70%;
+  height: 36.6em;
+  margin: 0 auto;
+  display: flex;
+}
+.allgames #file {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.allgames #file:hover {
+  cursor: pointer;
+}
+
+.allgames #userimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.allgames .account .winners-btn {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5em;
+  margin-right: 10em;
+}
+
+.allgames .account .winners-btn > span {
+  margin-left: 0.5em;
+}
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+  .allgames {
+    font-size: 9px;
+  }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .allgames {
+    font-size: 8px;
+  }
+
+  .allgames .title > img {
+    width: 12.5em;
+    height: 2.9em;
+  }
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .allgames {
+    font-size: 6.5px;
+  }
+
+  .allgames .container .comp2:nth-of-type(2) .title3 > img {
+    width: 8em;
+  }
+
+  .allgames .title3 > img {
+    width: 5em;
+  }
+
+  .allgames .btn {
+    height: 1.9em;
+  }
+
+  .allgames .btn .p3 {
+    font-size: 0.8em;
+  }
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  .allgames {
+    font-size: 5.5px;
+  }
+
+  .startpage .container .banner {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .allgames {
+    font-size: 4.68px;
+  }
+
+  .allgames .container {
+    width: 78em;
+  }
+
+  .allgames .comp1,
+  .allgames .comp2 {
+    width: 100%;
+  }
+
+  .allgames .account .p1 {
+    font-size: 4em;
+  }
+
+  .allgames .info {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .allgames {
+    font-size: 3.8px;
+  }
+}

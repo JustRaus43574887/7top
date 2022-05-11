@@ -1,0 +1,79 @@
+.acc-wrap {
+  background: rgba(196, 196, 196, 0.13);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.acc-btn {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+@media screen and (max-width: 426px) {
+  .acc-btn {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+.acc-stop {
+  background: #4f4f4f;
+  border: 2px solid #767676;
+}
+
+.acc-stop:focus {
+  background-color: gray;
+}
+
+.acc-send {
+  background: darkorange;
+  border: 2px solid orange;
+}
+
+.acc-send:focus {
+  background-color: orange;
+}
+
+.acc-input {
+  color: #ffffff;
+  text-align: center;
+}
+
+.acc-p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}
+
+.acc-sell {
+  background: #5893fe;
+  border: 2px solid #767676;
+}
+
+.acc-darwing {
+  background: #f90000;
+  border: 2px solid rgba(196, 196, 196, 0.1);
+}
+
+.acc-sell:focus {
+  background-color: lightblue;
+}
+
+.acc-darwing:focus {
+  background-color: red;
+}
+
+.acc-per {
+  background: #7662f4;
+  border: 2px solid rgba(196, 196, 196, 0.1);
+}
+
+.acc-per:focus {
+  background-color: blueviolet;
+}
